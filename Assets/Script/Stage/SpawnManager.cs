@@ -29,7 +29,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnObstacle()
     {
-        int RandomY = Random.Range(4, 11);
+        int RandomY = Random.Range(4, 10);
 
         Vector3 spawnPos = new Vector3 (20, RandomY , 0);
 
