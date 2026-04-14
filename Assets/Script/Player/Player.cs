@@ -10,9 +10,6 @@ public class Player : MonoBehaviour
     public GameObject BulletPrefab;
     public float BulletSpeed = 30f;
 
-    private float lifetime = 5f;
-    private float spawnTime;
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
