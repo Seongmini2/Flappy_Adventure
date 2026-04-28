@@ -6,7 +6,7 @@ public class Start_Butten : MonoBehaviour
 {
     public void Stage()
     {
-        SceneManager.LoadScene("Stage_Scene");
+        SceneManager.LoadScene("Cutscene");
         
         Debug.Log("씬 이동 성공!");
     }
