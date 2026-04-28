@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4228126618508209298}
   - component: {fileID: 7421907785408173115}
   - component: {fileID: 845428837152435712}
+  - component: {fileID: 3495300745432625120}
   m_Layer: 0
   m_Name: Pipe_dot_U
   m_TagString: Pipe
@@ -181,6 +182,18 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &3495300745432625120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222214833187789308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2011a6ac59b4824a8dbde4fe30d6eb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1525434047350163212
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +207,7 @@ GameObject:
   - component: {fileID: 4491160128066729052}
   - component: {fileID: 5945087244396621013}
   - component: {fileID: 7966102393260339302}
+  - component: {fileID: 2987132765908694890}
   m_Layer: 0
   m_Name: Pipe_dot_D
   m_TagString: Pipe
@@ -377,3 +391,15 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &2987132765908694890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525434047350163212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2011a6ac59b4824a8dbde4fe30d6eb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
