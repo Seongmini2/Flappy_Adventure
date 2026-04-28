@@ -793,7 +793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 115497501}
-  - component: {fileID: 115497500}
+  - component: {fileID: 115497502}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -801,18 +801,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &115497500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115497499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4e9e15c722a2cf43a324098066cbcf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &115497501
 Transform:
   m_ObjectHideFlags: 0
@@ -829,6 +817,18 @@ Transform:
   - {fileID: 2007070896}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &115497502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115497499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 103d73d48309adf4098ac407ba02868f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &124355515
 GameObject:
   m_ObjectHideFlags: 0
@@ -2582,6 +2582,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 934927243}
+  - {fileID: 1403824535}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &562965989 stripped
@@ -8847,7 +8848,7 @@ GameObject:
   - component: {fileID: 1403824533}
   - component: {fileID: 1403824532}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8929,7 +8930,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1225700658}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 558202587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9643,8 +9644,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 115497500}
-        m_TargetAssemblyTypeName: Start_Butten, Assembly-CSharp
+      - m_Target: {fileID: 115497502}
+        m_TargetAssemblyTypeName: Stage_1, Assembly-CSharp
         m_MethodName: Stage
         m_Mode: 1
         m_Arguments:
@@ -12830,4 +12831,3 @@ SceneRoots:
   - {fileID: 654309310}
   - {fileID: 201012767}
   - {fileID: 357655053}
-  - {fileID: 1403824535}
