@@ -27,7 +27,7 @@ public class CutsceneManager : MonoBehaviour
 
             if (currentIndex >= cutsceneImages.Length)
             {
-                SceneManager.LoadScene("Stage1");
+                SceneManager.LoadScene("Stage_Scene");
             }
             else
             {
