@@ -25,6 +25,11 @@ public class Player : MonoBehaviour
             isDead = true;
             GameManager.instance.GameOver(); // GameManager한테 넘기기
         }
+        else
+        {
+            isDead = true;
+            GameManager.instance.GameOver();
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)

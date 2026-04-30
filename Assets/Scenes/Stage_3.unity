@@ -14379,7 +14379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d2f44ce882eb88409a8e78c8fed2b7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameFinishUI: {fileID: 0}
+  gameFinishUI: {fileID: 1625331665}
   jumpForce: 9
   isDead: 0
 --- !u!50 &1856347256
