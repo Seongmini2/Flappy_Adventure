@@ -4,8 +4,11 @@ using UnityEngine;
 public class BossController : MonoBehaviour
 {
     public GameObject BulletPrefab;    
-    float StartAngle = -30f; 
-    float anglestep = 15f; 
+
+    public float Rushtime = 0.7f;
+    private float StartAngle = -30f; 
+    private float anglestep = 15f; 
+
     void Start()
     {   
         StartCoroutine(BossPattern());
@@ -37,7 +40,6 @@ public class BossController : MonoBehaviour
 
         Vector3 Playertarget = GameObject.FindWithTag("Player").transform.position;
         
-        float Rushtime = 0.7f;
         float timer = 0f;
 
         yield return new WaitForSeconds(0.5f);

@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public GameObject gameOverUI;
     public GameObject pauseMenuUI;  // ESC 메뉴
+    public GameObject gameClearUI;
 
     private bool isPaused = false;
 
@@ -61,5 +63,12 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void GameClear()
+    {
+        Debug.Log("메뉴이동테스트1");
+        Time.timeScale = 0f;
+        gameClearUI.SetActive(true);
     }
 }
